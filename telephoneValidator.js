@@ -15,7 +15,7 @@ Invalid formats:
 
 function telephoneCheck(phone){
   //console.log(`Phone: ${phone}`);
-  const ref2= /(^1?)([\s]*)(\(\d{3}\)|\d{3})([\s-]*)(\d{3})([\s\(-]?)(\d{4}$)/
+  const ref2= /(^1?)([\s-]*)(\(\d{3}\)|\d{3})([\s-]*)(\d{3})([\s-]?)(\d{4}$)/
   return reg.test(phone)
 
 
